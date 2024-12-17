@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+       .container {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 50px;
+        background-color: rgb(141, 3, 165);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 10px;
+       }
+
+       .button{
+        background-color: transparent;
+        border: solid;
+        border-color: white;
+        color: white;
+        border-radius: 2px;
+        border-width: 1.5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+       }
+
+       .div-search {
+        margin-left: 60px;
+        margin-right: 60px;
+        display: flex;
+        flex: 1;
+        min-width: 40px;
+       }
+
+       .searchbar {
+        flex: 1;
+        min-width: 40px;
+        padding-left: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border: none;
+        border-radius: 50px;
+       }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div style="color: white; font-weight: bold;">
+          Home
+        </div>
+        <div class="div-search">
+          <input class="searchbar" type="text" placeholder="Search">
+        </div>
+        <div>
+          <button class="button">
+            Download
+          </button>
+        </div>
+      </div>
+    </body>
+  </html>

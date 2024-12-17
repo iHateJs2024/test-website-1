@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        p {
+          font-family: Arial;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        
+        .profile {
+          width: 200px;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .profile-picture {
+          width: 100%;
+          margin-bottom: 12px;
+        }
+        
+        .name {
+          font-size: 18px;
+          font-weight: bold;
+          margin-left: 8px;
+          margin-bottom: 4px;
+        }
+        
+        .mutual-friends {
+          color: rgb(100, 100, 100);
+          margin-bottom: 7px;
+        }
+        
+        .add-friend-button {
+          background-color: rgb(24, 119, 242);
+          color: white;
+          border: none;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          border-radius: 4px;
+          font-size: 16px;
+          margin-left: 8px;
+          margin-bottom: 10px;
+        }
+
+        .dog2 {
+          width: 25px;
+          height: 25px;
+          object-fit: cover;
+          border-radius: 100px;
+          margin-left: 8px;
+          margin-right: 7px;
+        }
+
+        .first-horizontal,
+        .second-horizontal {
+          vertical-align: middle;
+          display: inline-block;
+        }
+
+        .third-vertical {
+          margin-bottom: 8px;
+        }
+
+        .grid {
+          display: grid;
+          grid-template-columns: 200px 200px 200px;
+          align-items: center;
+          column-gap: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <!--Grid Container starts here!-->
+      <div class="grid">
+      <!--First horizontal layout-->
+      <div class="profile">
+        <div>
+          <img class="profile-picture" src="image/cat.jpg">
+        </div>
+        <div>
+          <p class="name">
+            Oliver
+          </p>
+        </div>
+        <div class="third-vertical">
+          <div class="first-horizontal">
+            <img class="dog2" src="image/dog2.jpg" alt="">
+          </div>
+          <div class="second-horizontal">
+            <p class="mutual-friends">
+              2 mutual friends
+            </p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+
+      <!--Second horizontal layout-->
+      <div class="profile">
+        <div>
+          <img class="profile-picture" src="image/cat2.jpg">
+        </div>
+        <div>
+          <p class="name">
+            Mimi
+          </p>
+        </div>
+        <div class="third-vertical">
+          <div class="first-horizontal">
+            <img class="dog2" src="image/dog2.jpg" alt="">
+          </div>
+          <div class="second-horizontal">
+            <p class="mutual-friends">
+              3 mutual friends
+            </p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+
+      <!--Third horizontal layout-->
+      <div class="profile">
+        <div>
+          <img class="profile-picture" src="image/dog.jpg">
+        </div>
+        <div>
+          <p class="name">
+            Rex
+          </p>
+        </div>
+        <div class="third-vertical">
+          <div class="first-horizontal">
+            <img class="dog2" src="image/dog2.jpg" alt="">
+          </div>
+          <div class="second-horizontal">
+            <p class="mutual-friends">
+              4 mutual friends
+            </p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>              
+    </div>
+    <!--Grid Container ends here!-->
+    </body>
+  </html>
